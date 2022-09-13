@@ -14,8 +14,10 @@ putchar(lw);
 lw += 1;
 }
 while (up <= 'Z')
+{
 putchar(up);
 up += 1;
+}
 putchar('\n');
 return (0);
 }
