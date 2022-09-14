@@ -2,7 +2,7 @@
 /**
  * _abs- compute absolute number of an interger
  * @n- the int to check
- * Return: the abosulute value of int
+ * Return: the abosulute value of n 
  */
 int _abs(int n)
 {
