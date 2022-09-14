@@ -2,13 +2,13 @@
 /**
  * _abs- compute absolute number of an interger
  * @n- the int to check
- * Return: the abosulute value
+ * Return: the abosulute value of int
  */
 int _abs(int n)
 {
 if (n >= 0)
 {
-return(n);
+return (n);
 }
-return(-n);
+return (-n);
 }
