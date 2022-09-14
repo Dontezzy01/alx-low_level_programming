@@ -4,7 +4,7 @@
  * @n- the int to check
  * Return: the abosulute value
  */
-int _abs(int)
+int _abs(int n)
 {
 if (n >= 0)
 {
