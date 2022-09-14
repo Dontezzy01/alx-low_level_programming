@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * jack _bauer- print every minute
+ * jack_bauer- print every minute
  * starting from 00:00 -23:59
  */
 void jack_bauer(void)
