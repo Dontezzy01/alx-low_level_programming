@@ -15,15 +15,15 @@ for (i = 0; i <= 98;  i++)
 if (i != 98)
 printf("%d\n", i);
 else if (i == 98)
-prinrtf("%d", i);
+printf("%d", i);
 }
 }
-else if (n>)= 98)
+else if (n >=98)
 {
 for (j = n; j >= 98; j--)
 {
 if (j != 98)
-print("%d", j);
+printf("%d", j);
 else if (j == 98)
 printf("%d\n", j);
 }
