@@ -1,29 +1,24 @@
 #include "main.h"
 
 /**
- * largest_number - returns the largest of 3 numbers
- * @a: first integer
- * @b: second integer
- * @c: third integer
- * Return: largest number
+ * print_number - prints an integer;
+ * @n: integer to be printed;
  */
-
-int largest_number(int a, int b, int c)
+void print_number(int n)
 {
-	int largest;
+	unsigned int n1;
 
-	if (a >= b && a >= c)
+	if (n < 0)
 	{
-		largest = a;
-	}
-	else if (b >= a && b >= c)
+		n1 = -n;
+		_putchar('-');
+	} else
 	{
-		largest = b;
-	}
-	else
-	{
-		largest = c;
+		n1 = n;
 	}
 
-	return (largest);
+	if (n1 / 10)
+		print_number(n1 / 10);
+
+	_putchar((n1 % 10) + '0');
 }
